@@ -16,7 +16,7 @@ public class RepositoryEvent {
                            @JsonProperty("created_at") OffsetDateTime creationTime,
                            @JsonProperty("actor") Actor actor,
                            @JsonProperty("issue") Issue issue) {
-        this.type = Type.valueOf(type);
+        this.type = Type.valueFrom(type);
         this.creationTime = creationTime;
         this.actor = actor;
         this.issue = issue;
