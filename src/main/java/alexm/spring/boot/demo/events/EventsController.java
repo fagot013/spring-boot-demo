@@ -26,6 +26,4 @@ public class EventsController {
         return this.githubClient.fetchEvents(project.getOrgName(), project.getRepoName()).getBody();
     }
 
-
-
 }
