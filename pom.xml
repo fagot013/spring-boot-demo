@@ -61,19 +61,19 @@
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.webjars.nmp</groupId>
+			<groupId>org.webjars.npm</groupId>
 			<artifactId>bulma</artifactId>
-			<version>0.6.0</version>
-			<scope>runtime</scope>
+			<version>0.6.2</version>
 		</dependency>
+
 		<dependency>
-			<groupId>org.webjars.nmp</groupId>
+			<groupId>org.webjars</groupId>
 			<artifactId>font-awesome</artifactId>
 			<version>4.7.0</version>
-			<scope>runtime</scope>
 		</dependency>
+
 		<dependency>
-			<groupId>org.webjars.nmp</groupId>
+			<groupId>org.webjars.bower</groupId>
 			<artifactId>timeago.js</artifactId>
 			<version>3.0.0</version>
 			<scope>runtime</scope>
