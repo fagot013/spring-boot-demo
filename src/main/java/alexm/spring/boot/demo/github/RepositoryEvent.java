@@ -60,6 +60,7 @@ public class RepositoryEvent {
         CONVERTED_NOTE_TO_ISSUE("converted_note_to_issue"),
         MOVED_COLUMNS_IN_PROJECT("moved_columns_in_project"),
         COMMENT_DELETED("comment_deleted"),
+        MARKED_AS_DUPLICATE("marked_as_duplicate"),
         REVIEW_REQUESTED("review_requested");
 
         private String type;

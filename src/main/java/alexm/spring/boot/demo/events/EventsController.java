@@ -41,5 +41,11 @@ public class EventsController {
         return "dashboard";
     }
 
+    @GetMapping("/admin")
+    public String admin(Model model) {
+        model.addAttribute("projects", this.repository.findAll());
+        return "admin";
+    }
+
 
 }
